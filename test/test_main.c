@@ -5,6 +5,7 @@
  * @copyright   Copyright (c) 2021 m2enu
  */
 #include "unity.h"
+#include "test_datetime.h"
 
 /** Unused indicator to suppress compiler warning
  */
@@ -30,5 +31,8 @@ int main(int argc, char **argv)
     UNUSED_PARAMETER(argv);
 
     UNITY_BEGIN();
+    RUN_TEST(test_DateTimeIsLeapYear);
+    RUN_TEST(test_DateTimeDayOfMonth1);
+    RUN_TEST(test_DateTimeDayOfMonth2);
     return UNITY_END();
 }

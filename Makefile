@@ -13,6 +13,7 @@ BIN_ROOT		:= $(PRJ_ROOT)/$(BIN_DIR)
 
 # Source files
 SRCS			:= \
+	$(SRC_ROOT)/datetime.c \
 
 # Include directories
 INC_DIRS        := \

@@ -11,6 +11,7 @@ TARGET			:= $(BIN_ROOT)/unittest.elf
 # Additional source files
 SRCS			:= $(SRCS) \
 	$(TST_ROOT)/$(UNITY_DIR)/unity.c \
+	$(TST_ROOT)/test_datetime.c \
 	$(TST_ROOT)/test_main.c \
 
 # Additional include directories
